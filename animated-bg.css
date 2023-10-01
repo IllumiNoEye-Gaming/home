@@ -1,0 +1,30 @@
+body {
+    background: linear-gradient(270deg, #ffe200, #000000, #003f92);
+    background-size: 600% 600%;
+
+    -webkit-animation: heeho-gradient 16s ease infinite;
+    -moz-animation: heeho-gradient 16s ease infinite;
+    -o-animation: heeho-gradient 16s ease infinite;
+    animation: heeho-gradient 16s ease infinite;
+}
+
+@-webkit-keyframes heeho-gradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes heeho-gradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-o-keyframes heeho-gradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes heeho-gradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}

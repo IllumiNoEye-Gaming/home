@@ -1,0 +1,188 @@
+html { 
+    height: 100%;
+    width: 100% ;
+}
+
+body {
+    height: 100%;
+    min-height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+#body {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+
+    font-family: 'AR One Sans';
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: whitesmoke;
+    margin: 5px;
+    margin-bottom: 0px;
+    border-radius: 15px;
+    border-width: 2px;
+    border-color: rgb(31, 31, 31);
+    background-color: rgba(31, 31, 31, 0.66);
+    padding-right: 1%;
+}
+
+#header > #title {
+    margin: 2em;
+    line-height: 0.5em;
+    font-family: 'Chakra Petch';
+}
+
+#heemage {
+    width: 8em;
+}
+
+#heemage > img {
+    padding: 10%;
+    padding-left: 15%;
+    width: 80%;
+    object-fit: contain;
+}
+
+#realBody {
+    color: whitesmoke;
+    height: 100%;
+
+    border-radius: 10px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    background-color: rgb(31, 31, 31);
+
+    margin: 5px;
+    margin-bottom: 0px;
+
+    padding: 1%;
+
+    font-size: large;
+
+    overflow: scroll;
+}
+
+#headerSocials {
+    vertical-align: middle;
+    display: flex;
+    flex-direction: row;
+}
+
+.socialButton {
+    height: 3em;
+    width: 3em;
+    margin: 2.5em;
+    margin-left: 0.1em;
+    margin-right: 4em;
+}
+
+.socialButton > a {
+    display: inline-block;
+    position: relative;
+    height: 98%;
+    width: 98%;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 75%;
+}
+
+.socialButton > a > img {
+    height: 80%;
+    padding: 10%;
+    object-fit: contain;
+    position: relative;
+    pointer-events: none;
+}
+
+#mainLinks {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-grow: 1;
+    
+    margin-left: 4%;
+    margin-right: 4%;
+    
+    border-style: solid;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-color: white;
+    border-radius: 10px;
+}
+
+#mainLinks > a {
+    display: grid;
+    height: 100%;
+    align-content: center;
+    flex-grow: 1;
+    text-align: center;
+    color: white;
+    font-size: large;
+    text-decoration: none;
+}
+
+#mainLinks > a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+}
+
+#card {
+    float: left;
+    display: flex;
+    flex-direction: row;
+    height: 11.2em;
+    width: 35em;
+    border-color: white;
+    border-style: outset;
+    border-radius: 12px;
+    background-color: rgb(18, 32, 75);
+}
+
+#mainbar {
+    display: flex;
+    flex-direction: column;
+}
+
+.cardItem {
+    border-width: 2px;
+    border-style: inset;
+    border-color: white;
+    border-radius: 10px;
+    margin: 0.6em;
+}
+
+#mainbar > img {
+    height: 10em;
+    background-color: black;
+}
+
+#username {
+    padding: 0.5em;
+}
+
+#cardInfo {
+    margin-top: 0.8em;
+    margin-bottom: 0.3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    flex-grow: 1;
+
+    p {
+        margin: 0px;
+    }
+}
